@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+.student-record {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.student-record p {
+    margin: 5px 0;
+}
+
+.edit-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #2e86de;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.edit-btn:hover {
+    background-color: #1e5fbb;
+}
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.student-form {
+    animation: fadeSlideIn 0.8s ease-out;
+}
